@@ -18,10 +18,23 @@ function SubForm (){
         type:'post',
         data:$("#myForm").serializeArray(),
         success: function(){
-          alert("Form Data Submitted :)")
-        },
+                },
         error: function(){
           alert("There was an error :(")
         }
     });
+}
+
+function SubForm1 (){
+  $.ajax({
+      url:'https://api.apispreadsheets.com/data/1700/',
+      type:'post',
+      data:$("#myForm").serializeArray(),
+      success: function(){
+        alert("Form Data Submitted :)")
+      },
+      error: function(){
+        alert("There was an error :(")
+      }
+  });
 }
