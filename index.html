@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Percentage Calculator </title>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+      </script>
+
+</head>
+<body>
+  <div id="container">
+    <form id="myForm">
+    <div>
+      <label>Name</label>
+      <input type="text" placeholder="Enter you real name" name="Name" required>
+    </div>
+    <hr>
+  <h3>Enter your correct marks out of 50</h3>
+
+  <div class="startm">
+  <div>
+    <label>Physics:</label>
+    <input type="text" name="Phym" value="" id="Phym">
+  </div>
+
+  <div>
+    <label>Chemistry :</label>
+    <input type="text" name="Chem" value="" id="Chem">
+  </div>
+
+  <div>
+    <label>Biology :</label>
+    <input type="text" name="Biom" value="" id="Biom">
+  </div>
+  <div>
+    <label>Maths :</label>
+    <input type="text" name="Mathm" value="" id="Mathm">
+  </div>
+  <div>
+    <label>Geography :</label>
+    <input type="text" name="Geom" value="" id="Geom">
+  </div>
+  <div>
+    <label>History :</label>
+    <input type="text" name="Hism" value="" id="Hism">
+  </div>
+  <div>
+    <label>Computer :</label>
+    <input type="text" name="Comm" value="" id="Comm">
+  </div>
+  <div>
+    <label>Second Language :</label>
+    <input type="text" name="Slm" value="" id="Slm">
+  </div>
+  <div>
+    <label>English :</label>
+    <input type="text" name="Engm" value="" id="Engm">
+  </div>
+  </div>
+
+  <div>
+    <div>
+      <label> Total Percentage:
+      </label><span id="tipOutput"> 0 % </span>
+
+    </div>
+
+      </div>
+
+      <div>
+      <h3>If the Calculator was useful to you in any way, Then pls click <b> Good</b> </h3>
+  <button onclick="SubForm()">
+    Good </button>
+  <button onclick="SubForm()"> Bad</button>
+
+      </div>
+</form>
+</div>
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>

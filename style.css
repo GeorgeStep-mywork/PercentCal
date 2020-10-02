@@ -1,0 +1,118 @@
+body {
+  margin: 0 auto;
+  font-size: 1.2em;
+  color: #fffdfd;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  background: url(cr1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+button{
+  border: 1px solid #eee;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 30px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  }
+
+button:hover {
+  background: #0d1f1c;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: auto;
+}
+
+#container {
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 1rem;
+  background-color: #0d1f1c;
+  opacity: 0.9;
+  margin-top: 15%;
+
+}
+
+div {
+  line-height: 2.5em;
+}
+
+input[type="text"] {
+  display: flex;
+  align-content: center;
+  font-size: 1.1em;
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+input[type="email"] {
+  display: flex;
+  align-content: center;
+  font-size: 1.1em;
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.marks input[type="text"]{
+  width: 20%;
+}
+
+.startm{
+  display: inline-grid;
+}
+
+input[tupe="range"] {
+  background-color: #3cbc8d;
+  height: 90px;
+  color: white;
+}
+
+label,
+input {
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  body {
+    width: 60%;
+  }
+  #container {
+    opacity: 0.9;
+  }
+  label,
+  input {
+    display: inline-block;
+    width: 40%;
+  }
+  div {
+    line-height: 3em;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: #444;
+}
+hr {
+  margin: 20px auto;
+  opacity: 0.9;
+}
